@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'comic_bookregular';
+    src: url('/fonts/12_comic_book-webfont.woff2') format('woff2'),
+         url('fonts/12_comic_book-webfont.woff') format('woff'),
+         url('fonts/12_comic_book-webfont.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+html {
+    background-color: #EBEBEB;
+}
+
+body {
+    text-align: center;
+    font-family: 'comic_bookregular';
+    font-size: 40px;
+}
+
+h1 {
+    color: #FFAA00;
+}
+
+.Link{
+    color: #00F7FF;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2)
+}
+
+.Signature {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
